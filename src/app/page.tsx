@@ -31,16 +31,18 @@ export default function HomePage() {
       try {
         const result = await searchUsers(query);
         setUsers(result);
-      } catch (err: any) {
+      } catch (err: unknown) {
         const message =
-          err?.message || "Failed to fetch users. Please try again later.";
+          err instanceof Error
+            ? err.message
+            : "Failed to fetch users. Please try again later.";
         setError(message);
         toast.error(message);
       } finally {
         setIsSearching(false);
       }
     },
-    [lastQuery]
+    [setIsFirstSearching, setIsSearching]
   );
 
   return (
