@@ -1,6 +1,8 @@
 # Github Repo Explorer – Discover Users and Explore Their Repositories
 
-[GitHub Repo Explorer Demo](https://res.cloudinary.com/dsv9w1ey3/image/upload/v1749197222/github-video/ppvx4chkypupyzqstegx.gif)
+<p align="center">
+  <img src="https://res.cloudinary.com/dsv9w1ey3/image/upload/v1749197222/github-video/ppvx4chkypupyzqstegx.gif" alt="Github Repo Explorer Demo" width="600" />
+</p>
 
 **Github Repo Explorer** is a web application designed to help you **search for Github users** and explore their repositories in a clean and interactive way.
 
