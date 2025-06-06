@@ -6,7 +6,7 @@ export interface GithubUser {
 }
 
 export interface GithubRepo {
-  fork: any;
+  fork: boolean;
   id: number;
   name: string;
   html_url: string;
